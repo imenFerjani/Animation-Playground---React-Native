@@ -1,28 +1,32 @@
 {
   "expo": {
     "name": "AnimMotion",
-    "slug": "AnimMotion",
+    "slug": "animmotion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6200ee"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#6200ee"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "An interactive showcase of React Native animation techniques including basic transitions, gestures, physics-based animations, and layout animations.",
+    "githubUrl": "https://github.com/yourname/animmotion"
   }
 }
